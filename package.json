@@ -1,0 +1,37 @@
+{
+  "name": "example-plugin",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "A Example Plugin for Hydrogen",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "ipython"
+  ],
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^0.0.3": "consumeHydrogen"
+      }
+    }
+  },
+  "repository": "https://github.com/lgeiger/hydrogen-example-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+  },
+  "package-deps": [
+    "hydrogen"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

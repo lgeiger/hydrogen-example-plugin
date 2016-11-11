@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Hydrogen: Example Plugin'
+      'submenu': [
+        {
+          'label': 'Connect to Hydrogen'
+          'command': 'example-plugin:connect-to-hydrogen'
+        }
+      ]
+    ]
+  }
+]
