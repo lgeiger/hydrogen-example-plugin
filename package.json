@@ -11,7 +11,7 @@
   "consumedServices": {
     "hydrogen.provider": {
       "versions": {
-        "^0.0.3": "consumeHydrogen"
+        "^1.0.0": "consumeHydrogen"
       }
     }
   },
@@ -23,8 +23,7 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "package-deps": [
     "hydrogen"
   ],
